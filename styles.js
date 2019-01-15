@@ -4,7 +4,7 @@ let calkbtn = document.querySelector(".calkbtn");
 
 
 
-function calculateCurrency() {
+let calculateCurrency = () => {
   
   const init = valueInput.value;
   if (outputCurrency = document.querySelector(".outputCurrency").value === 'USD'){
@@ -18,10 +18,10 @@ function calculateCurrency() {
       
   }
 };
- 
+
+
 
 calkbtn.addEventListener("click", calculateCurrency );
-
 
 
 
