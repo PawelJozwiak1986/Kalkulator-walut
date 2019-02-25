@@ -10,6 +10,7 @@ let calculateCurrency = () => {
   if (outputCurrency = document.querySelector(".outputCurrency").value === 'USD'){
     let wynik = init * 3.7668;
     document.querySelector(".initial__value").value = wynik;
+    this.reset();
 
   }
     if(outputCurrency = document.querySelector(".outputCurrency").value === 'EUR'){
@@ -17,11 +18,12 @@ let calculateCurrency = () => {
       document.querySelector(".initial__value").value = wynik;
       
   }
+  
 };
 
 
 
 calkbtn.addEventListener("click", calculateCurrency );
 
-
-
+//// zrób metode  this.reset();
+ 
